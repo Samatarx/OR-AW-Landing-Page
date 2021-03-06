@@ -7,9 +7,6 @@
   font-family: "Montserrat", sans-serif;
 }
 
-body {
-    background-color: rgb(51, 70, 155);
-}
 
 main {
   display: flex;
@@ -68,20 +65,23 @@ main {
   display: flex;
   margin: 10px;
   width: 100%;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .socials ul li {
   list-style: none;
-  margin: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
 }
 
 .socials ul li a {
   text-decoration: none;
   color: #000;
+  
 }
 
-.circle {
+/* .circle {
     position: absolute;
     top: 0;
     left: 0;
@@ -90,7 +90,7 @@ main {
     background-color: #ffffff;
     clip-path: circle(350px at center);
     z-index: -4; 
-}
+} */
 
 @media (max-width: 708px) {
   .logo img {
