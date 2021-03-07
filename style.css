@@ -107,7 +107,7 @@ main {
   height: 750px;
   width: 750px;
   z-index: -10;
-  animation: rescale 20s infinite linear;
+  animation: rescale 30s infinite linear;
 }
 
 @keyframes rescale {
@@ -125,7 +125,7 @@ main {
   height: 750px;
   width: 750px;
   z-index: -10;
-  animation: rescale2 25s infinite linear;
+  animation: rescale2 30s infinite linear;
 }
 
 @keyframes rescale2 {
