@@ -194,3 +194,14 @@ main {
     font-size: medium;
   }
 }
+
+@media (max-height: 450px) {
+  *{
+    overflow: auto;
+  }
+
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+} 
