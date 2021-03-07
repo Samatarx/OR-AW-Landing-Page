@@ -165,11 +165,12 @@ main {
     clip-path: circle(275px at center);
   }
 
-  .square, .square2, .square3 {
+  .square,
+  .square2,
+  .square3 {
     width: 600px;
     height: 600px;
   }
-
 }
 
 @media (max-width: 450px) {
@@ -189,7 +190,9 @@ main {
     height: 45px;
     width: auto;
   }
-  .square, .square2, .square3 {
+  .square,
+  .square2,
+  .square3 {
     width: 500px;
     height: 500px;
   }
