@@ -137,6 +137,24 @@ main {
   }
 }
 
+.square3 {
+  border: 10px solid rgba(1, 153, 95, 0.1);
+  position: absolute;
+  height: 750px;
+  width: 750px;
+  z-index: -10;
+  animation: rescale3 30s infinite linear;
+}
+
+@keyframes rescale3 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
 @media (max-width: 708px) {
   .logo img {
     height: 75px;
@@ -147,15 +165,11 @@ main {
     clip-path: circle(275px at center);
   }
 
-  .square {
+  .square, .square2, .square3 {
     width: 600px;
     height: 600px;
   }
 
-  .square2 {
-    width: 600px;
-    height: 600px;
-  }
 }
 
 @media (max-width: 450px) {
@@ -175,12 +189,7 @@ main {
     height: 45px;
     width: auto;
   }
-  .square {
-    width: 500px;
-    height: 500px;
-  }
-
-  .square2 {
+  .square, .square2, .square3 {
     width: 500px;
     height: 500px;
   }
