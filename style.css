@@ -159,19 +159,16 @@ main {
 }
 
 @media (max-width: 450px) {
-
-
   .text {
-    font-size: medium
+    font-size: medium;
   }
 
   .email a {
     font-size: 18px;
-   
   }
 
   .socials {
-    font-size: 10px
+    font-size: 10px;
   }
 
   .logo img {
@@ -196,7 +193,7 @@ main {
 }
 
 @media (max-height: 450px) {
-  *{
+  * {
     overflow: auto;
   }
 
@@ -204,4 +201,4 @@ main {
     height: 50px;
     width: auto;
   }
-} 
+}
