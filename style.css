@@ -155,6 +155,24 @@ main {
   }
 }
 
+.square4 {
+  border: 10px solid rgba(3, 204, 211, 0.1);
+  position: absolute;
+  height: 750px;
+  width: 750px;
+  z-index: -10;
+  animation: rescale4 30s infinite linear;
+}
+
+@keyframes rescale4 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-180deg);
+  }
+}
+
 @media (max-width: 708px) {
   .logo img {
     height: 75px;
@@ -167,7 +185,8 @@ main {
 
   .square,
   .square2,
-  .square3 {
+  .square3,
+  .square4 {
     width: 600px;
     height: 600px;
   }
@@ -175,15 +194,17 @@ main {
 
 @media (max-width: 450px) {
   .text {
-    font-size: medium;
+    font-size: x-large;
   }
 
   .email a {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .socials {
-    font-size: 10px;
+    text-align: center;
+    font-size: small;
+    justify-content: center;
   }
 
   .logo img {
@@ -192,9 +213,14 @@ main {
   }
   .square,
   .square2,
-  .square3 {
+  .square3, .square4 {
     width: 500px;
     height: 500px;
+  }
+
+  .socials ul {
+    justify-content: space-around;
+    margin: 0;
   }
 
   .socials ul li a {
