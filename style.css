@@ -208,7 +208,7 @@ main {
   }
 
   .logo img {
-    height: 45px;
+    height: 60px;
     width: auto;
   }
   .square,
@@ -229,6 +229,19 @@ main {
     font-size: medium;
   }
 }
+
+@media (max-width: 350px){
+  .logo img {
+    height: 45px;
+    width: auto;
+  }
+
+  .text {
+    font-size: large;
+  }
+
+}
+
 
 @media (max-height: 450px) {
   * {
