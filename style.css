@@ -213,7 +213,8 @@ main {
   }
   .square,
   .square2,
-  .square3, .square4 {
+  .square3,
+  .square4 {
     width: 500px;
     height: 500px;
   }
@@ -230,9 +231,9 @@ main {
   }
 }
 
-@media (max-width: 350px){
+@media (max-width: 376px) {
   .logo img {
-    height: 45px;
+    height: 55px;
     width: auto;
   }
 
@@ -240,8 +241,17 @@ main {
     font-size: large;
   }
 
+  .email a {
+    font-size: medium;
+  }
 }
 
+@media (max-width: 350px) {
+  .logo img {
+    height: 45px;
+    width: auto;
+  }
+}
 
 @media (max-height: 450px) {
   * {
